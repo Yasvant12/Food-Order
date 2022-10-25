@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Main-Content1{
+
+    width: 100%;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.wrapper2{
+    overflow: auto;
+    padding: 1%;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearFix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+    
+}
+.tbl-30{
+    width: 30%;
+}
+
+/* table tr th{
+
+    padding: 1%;
+    text-align: left;
+    border-bottom: 1px  solid black;
+}
+
+table tr td{
+    padding: 1% 2%;
+    word-break: none;
+    
+}
+table tr td a{
+   width: 100%;
+    
+} */
+
+table, th, td {
+   border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+  th, td {
+     border-color:#96D4D4;
+    white-space: nowrap;
+  }
+
+
+.btn-primary{
+   background-color: #2e86de;
+    padding: 1%;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.btn-primary:hover{
+    background-color: #341f97;
+    color: aliceblue;
+
+}
+
+.btn-secondary{
+     background-color: #ff6b6b;
+      padding: 1%; 
+     text-decoration: none;
+     font-weight: bold;
+     color: aliceblue;
+     white-space: nowrap;
+     display: inline-block;
+ }
+ .btn-secondary2{
+    background-color: #ff6b6b;
+     padding: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    white-space: nowrap;
+    display: inline-block;
+}
+ .btn-secondary:hover{
+     background-color: #ee5253;
+     color: aliceblue;
+ 
+ }
+ .btn-dark{
+    background-color: #1dd1a1;
+     padding: 1%;
+     border-radius: 4px;
+     text-decoration: none;
+     font-weight: bold;
+     color: aliceblue;
+ }
+ 
+ .btn-dark:hover{
+     background-color: #10ac84;
+     color: aliceblue;
+ 
+ }
+
+.sucess{
+    color:green;
+}
+.error{
+    color: red;
+}
+
+/* CSS For Menu */
+.menu{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+text-decoration: none;
+font-weight: bold;
+color:#d63031;
+font-size: 15px;
+
+}
+.menu ul li a:hover{
+    color:#ff7675;
+    
+}
+
+/* Css for Menu content */
+
+.Main-Content{
+background-color: #dfe6e9;
+padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+/* CSS For Footer */
+.footer{
+    background-color: #ff7675;
+    color: white;
+}
+
+
+
+/* Css for Login  */
+
+
+.login{
+    border: 1px solid gray;
+    width: 35%;
+    margin: 10% auto;
+    padding: 2%;
+}
